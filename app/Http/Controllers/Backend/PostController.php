@@ -18,9 +18,14 @@ class PostController extends Controller
      */
     public function index()
     {
+        /* puede ser de esta forma, pero para paginar es mejor este
         $posts = Post::latest()->get();
-
         return view('posts.index', compact('posts'));
+        */
+
+        return view('posts.index',[
+            'posts' => Post::with('user')->latest()->paginate()
+        ]);
     }
 
     /**
