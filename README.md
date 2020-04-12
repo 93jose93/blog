@@ -5,11 +5,19 @@ login registro con validaciones, diseño bootstrap 4 plantilla original se ven l
 
 crud consultar o ver,agregar o crear,editar y eliminar con sus validaciones iniciales.
 
+agrega imagen, texto, video embebido como comapartir de yotube
+
 falta agregar mas validaciones
 
 posee seguridad de autenticacion, seguridad de token, seguridad de validaciones.
 
-pose un componente llamado slug para los post, para que se agregue el titulo en el post de su url, para el posicionamiento seo
+posee un componente llamado slug para los post, para que se agregue el titulo en el post de su url, para el posicionamiento seo
+
+posee la relacion de base de datos con usuarios y su post
+
+posee relacion en el modelo de laravel para que sepa sus relaciones en las tablas
+
+posee factoris y seeds, en la base de datos, que son datos falsos o semillas, para que se agreguen tanto la tabla post como en tabla usuario de la base de datos
 
 ##  Comandos Laravel usados
 ## laravel new blog --auth 
