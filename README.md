@@ -19,6 +19,10 @@ posee relacion en el modelo de laravel para que sepa sus relaciones en las tabla
 
 posee factoris y seeds, en la base de datos, que son datos falsos o semillas, para que se agreguen tanto la tabla post como en tabla usuario de la base de datos
 
+posee paginador tantos los post, como en la consulta de todos los post
+
+cuando elimina el post y posee imagen, borran la imagen guardado
+
 ##  Comandos Laravel usados
 ## laravel new blog --auth 
 
